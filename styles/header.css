@@ -1,0 +1,290 @@
+.header .left{
+	display: flex;
+	align-items: center;
+}
+body{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.left-content .top{
+	display: flex;
+	align-items: center;
+	height: 72px;
+}
+.left-content .nav-list{
+	display: flex;
+	gap:24px;
+}
+
+.nav-item{
+	cursor: pointer;
+	padding-bottom: 10px;
+	font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+	color:rgb(109, 110, 111);
+	text-transform: capitalize;
+}
+.nav-item:hover{
+	box-shadow: inset 0 -2px #6d6e6f;
+	color:#1e1f21;
+}
+.nav-item.active{
+	box-shadow: inset 0 -2px #6d6e6f;
+	color:#1e1f21;
+}
+
+.header{
+	display: flex;
+	padding: 0 24px;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 72px;
+    padding: 0 24px;
+	height:98.8px;
+}
+
+.header .right{
+	display: flex;
+	align-items: center;
+}
+
+.share-holder{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:#1e1f21;
+	font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 8px;
+	cursor: pointer;
+	margin-left: 8px;
+	border-radius: 6px;
+	border:1px solid #cfcbcb;
+}
+.share-holder:hover{
+	background-color:#f9f8f8;
+	color:#1e1f21;
+}
+.share-holder:hover path{
+	fill :#1e1f21;
+}
+.status-holder{
+	display: flex;
+	margin-left: 9px;
+	align-items: center;
+	padding: 0 8px;
+	transition:0.3s ease all;
+	cursor: pointer;
+	border-radius: 6px;
+}
+.status-holder:hover{
+	background-color:rgba(55, 23, 23, 0.03);
+	color:#1e1f21;
+}
+.status-holder:hover .small-chevron{
+	visibility: visible;
+
+}
+
+.search-holder{
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-left:16px;
+}
+
+.input-search{
+	width: 140px;
+	border-radius: 16px;
+	height: 32px;
+    padding: 0 16px 0 32px;
+	outline: none;
+	border: 1px solid #cfcbcb;
+}
+
+.menu-icon{
+	width:16px;
+}
+
+.menu-btn{
+	height: 36px;
+    min-height: 36px;
+	cursor: pointer;
+	transition:0.3s ease all;
+	margin-bottom: 24px;
+	margin-right: 24px;
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 16px;
+}
+.menu-btn:hover{
+	background-color:rgba(55, 23, 23, 0.03);
+	fill:#1e1f21
+}
+
+.path-white{
+	fill:#fff;
+}
+.path-gray{
+	fill:rgba(30, 31, 33, 0.75);
+}
+
+.color-btn{
+	width:24px;
+}
+
+.color-btn-holder{
+	background-color:#b36bd4;
+	border-radius: 12px;
+    height: 48px;
+    width: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 16px;
+}
+
+.top-icon{
+	width:16px;
+}
+
+.small-chevron{
+	width:12px;
+	visibility: hidden;
+	margin-left: 4px;
+}
+.small-chevron path{
+	fill: #1e1f21;
+}
+
+.profile-circle{
+	width:24px;
+	height:24px;
+	background-color:#b36bd4;
+	color:#fff;
+	cursor: pointer;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+}
+
+.ppl-icon{
+	width:12px;
+	margin-right: 4px;
+}
+
+.divider{
+	border-left: 1px solid rgb(237, 234, 233);
+    height: 32px;
+    margin-left: 16px;
+}
+
+.search-icon{
+	width:16px;
+	position: absolute;
+	left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.plus-icon{
+	width:16px;
+}
+
+.plus-holder{
+	height: 28px;
+    width: 28px;
+	background-color:#f06a6a;
+	fill:#fff;
+	border-radius:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left:12px;
+}
+.plus-holder path{
+	fill:#fff;
+}
+
+.page-title{
+	font-size: 20px;
+    line-height: 28px;
+	font-weight: 500;
+	color:#1e1f21;
+	margin-right: 4px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+path{
+	fill: #6d6e6f;
+}
+
+.icon-top-holder{
+	height: 28px;
+    width: 28px;
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition:0.3s ease all;
+}
+.icon-top-holder:hover{
+	background-color:rgba(55, 23, 23, 0.03);
+}
+.icon-top-holder:hover path{
+	fill:#1e1f21;
+}
+.icon-top-holder path{
+	transition:0.3s ease all;
+}
+
+.empty-circle{
+	border-radius: 6px;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #6d6e6f;
+    margin-right: 6px;
+}
+
+.status-holder .text{
+	color:#6d6e6f;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.trial-holder{
+	margin-left: 12px;
+	background-color: #dbe0fd;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+.trial-holder .top{
+	font-size: 14px;
+    line-height: 22px;
+	color:#1e1f21;
+}
+
+.trial-holder .billing-info{
+	color:#4573d2;
+	text-decoration: none;
+	font-size:14px;
+}
+
+.profile-circle.big{
+    color: #fff;
+    cursor: pointer;
+    margin-left: 12px;
+	height: 28px;
+    line-height: 28px;
+    width: 28px;
+}

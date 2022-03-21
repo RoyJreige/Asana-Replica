@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+
+::-webkit-input-placeholder { /* Edge */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size:14px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size:14px;
+  }
+  
+  ::placeholder {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size:14px;
+  }
